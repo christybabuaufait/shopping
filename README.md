@@ -26,3 +26,43 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+##create component
+
+create component in angular CLI `ng g component componemtName`. 
+or
+`ng generate component my-new-component`
+or
+ `g component feature/new-cmp`
+
+##server port change 
+
+server port change with your local ip and port `ng serve --host 0.0.0.0 --port yourPort`.
+
+##Scaffold	##Usage
+Component	`ng g component my-new-component`
+Directive	`ng g directive my-new-directive`
+Pipe	    `ng g pipe my-new-pipe`
+Service 	`ng g service my-new-service`
+Class	    `ng g class my-new-class`
+Guard	    `ng g guard my-new-guard`
+Interface	`ng g interface my-new-interface`
+Enum	    `ng g enum my-new-enum`
+Module  	`ng g module my-module`
+
+##Updating Angular CLI
+
+`npm uninstall -g angular-cli`
+`npm uninstall --save-dev angular-cli`
+`npm uninstall -g @angular/cli`
+`npm cache clean`
+
+# if npm version is > 5 then use `npm cache verify` to avoid errors (or to avoid using --force)
+
+`npm install -g @angular/cli@latest`
+
+##Local project package:
+
+`rm -rf node_modules dist` # use rmdir /S/Q node_modules dist in Windows Command Prompt; use rm -r -fo node_modules,dist in Windows PowerShell
+`npm install --save-dev @angular/cli@latest`
+`npm install`.
