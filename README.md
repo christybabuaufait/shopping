@@ -66,3 +66,7 @@ Module  	`ng g module my-module`
 `rm -rf node_modules dist` # use rmdir /S/Q node_modules dist in Windows Command Prompt; use rm -r -fo node_modules,dist in Windows PowerShell
 `npm install --save-dev @angular/cli@latest`
 `npm install`.
+
+##resolve the all error project.
+
+yarn install
